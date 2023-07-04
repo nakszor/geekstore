@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.menu-flex {
+    display: flex;
+    border-bottom: 2px solid #E6E6E6;
+}
+.coluna {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+.coluna.alinha-botoes {
+    justify-content: flex-end;
+    padding: 12px;
+}
+.botoes{
+    height: 40px;
+    width: 150px;
+    background-color: #0A99FE;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botoes:hover{
+    background-color:hsla(201, 71%, 84%, 0.61);
+    color: #0A99FE;
+}
+main{
+    margin: 20px;
+}
+.text{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card{
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    color: #868383;
+    background-color: #F2F2F2;
+    border-radius: 13px;
+    height: 300px;
+}
+.image-card{
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ height: 180px;
+ width: 200px;
+}
+.lista-paintings{
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  gap: 25px;
+}
+.lista-action{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    gap: 25px;
+  }
+.item-name{
+    color: black;
+}
